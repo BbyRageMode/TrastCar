@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Акции</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="facebook-domain-verification"
+      content="61n0kzvr3dy3ypx85gf7tepttrbmfn"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="template.js"></script>
+    <script src="jquery.mask.js"></script>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-icon-social">
+        <div class="fi_ii wapp">
+          <a href="https://wa.me/79891232351">
+            <img src="./img/Personal-area/whatsapp.svg" alt="whatsapp" />
+          </a>
+        </div>
+        <div class="fi_ii insta">
+          <a href="https://www.instagram.com/trustcar_service/">
+            <img src="./img/Personal-area/instagram.svg" alt="instagram" />
+          </a>
+        </div>
+        <div class="fi_ii email">
+          <a href="mailto:mail@trustcar.ru">
+            <img src="./img/Personal-area/mail.svg" alt="email" />
+          </a>
+        </div>
+        <div class="fi_ii email">
+          <a href="mailto:mail@trustcar.ru">
+            <img src="./img/Personal-area/share.svg" alt="share" />
+          </a>
+        </div>
+      </div>
+      <div class="header_item logo_item">
+        <a href="./index.html">
+          <img src="./logo.svg" alt="logo" />
+        </a>
+      </div>
+      <div class="header_item top_nav_item personal-diagnostic-card-menu">
+        <nav class="navigation" role="navigation">
+          <div class="mobile_menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="descktop_menu">
+            <ul>
+              <div class="m-menu-header">
+                <div class="m-menu-header__left">
+                  <img src="./img/Personal-area/user.svg" alt="user" />
+                </div>
+                <div class="m-menu-header__right">
+                  <div class="m-menu-header__name">Леонид</div>
+                  <a
+                    href="./Personal-change-profile.html"
+                    class="m-menu-header__change"
+                    >Изменить профиль</a
+                  >
+                </div>
+              </div>
+              <a href="./Personal-area.html" class="lc-left__link">Главная</a>
+              <a href="./Personal-diagnostic-card.html" class="lc-left__link"
+                >Диагностическая карта</a
+              >
+              <a href="./Personal-bonus.html" class="lc-left__link">Бонусы</a>
+              <a href="./Personal-settings.html" class="lc-left__link"
+                >настройки</a
+              >
+              <a href="my-popup-exit" class="lc-left__link popup-link">Выход</a>
+            </ul>
+            <span class="close"></span>
+            <div class="mobile_icons_menu">
+              <div class="hi_ii wapp">
+                <a href="https://wa.me/79891232351">
+                  <img src="wapp_foot.svg" alt="whatsapp" />
+                </a>
+              </div>
+              <div class="hi_ii insta">
+                <a href="https://www.instagram.com/trustcar_service/">
+                  <img src="instagram_foot.svg" alt="instagram" />
+                </a>
+              </div>
+              <div class="hi_ii email">
+                <a href="mailto:mail@trustcar.ru">
+                  <img src="mail_foot.svg" alt="email" />
+                </a>
+              </div>
+              <div class="fi_ii email">
+                <a href="mailto:mail@trustcar.ru">
+                  <img
+                    style="width: 36px; height: 36px"
+                    src="./img/Personal-area/m-share.svg"
+                    alt="share"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <div class="header_item contacts_item header-social lc-header-social">
+        <div class="hi_ci phone">
+          <span></span>
+          <a href="tel:+78612062298">+7 861 206 22 98</a>
+        </div>
+        <!-- <div class="hi_ci truck header-truck lc-header-social__truck">
+          <span></span>
+          <a href="tel:+78612060723">8 (918) 438 43 95</a>
+        </div> -->
+      </div>
+    </header>
+    <main id="content">
+      <div class="wrapper">
+        <div class="lc">
+          <div class="lc__left lc-left">
+            <div class="lc-left__top">
+              <div class="lc-left__top-left">
+                <a href="#" class="user-icon lc-left__icon">
+                  <img
+                    class="user-icon__img"
+                    src="./img/Main/user.svg"
+                    alt=""
+                  />
+                </a>
+              </div>
+              <div class="lc-left__top-right">
+                <div class="lc-left__name">Леонид</div>
+                <a href="./Personal-change-profile.html" class="lc-left__change"
+                  >Изменить профиль</a
+                >
+              </div>
+            </div>
+            <div class="lc-left__body">
+              <a href="./Personal-area.html" class="lc-left__link">Главная</a>
+              <a href="./Personal-diagnostic-card.html" class="lc-left__link"
+                >Диагностическая карта</a
+              >
+              <a
+                href="./Personal-bonus.html"
+                class="lc-left__link lc-link-active"
+                >Бонусы</a
+              >
+              <a href="./Personal-settings.html" class="lc-left__link"
+                >настройки</a
+              >
+              <a href="my-popup-exit" class="lc-left__link popup-link">Выход</a>
+            </div>
+          </div>
+          <div class="lc__right lc-right">
+            <div class="lc-right-body__top">Личный кабинет</div>
+            <div
+              class="lc-right__body lc-right-body personal-bonus__right-body"
+            >
+              <div class="lc-right-body__left personal-bonus__left">
+                <div class="lc-right-body__title">Мои баланс</div>
+                <div class="lc-bottom-left__second">
+                  <div class="lc-bottom-left__img">
+                    <img src="./img/Personal-area/bonus.svg" alt="bonus" />
+                  </div>
+                  <div class="lc-bottom-left__bonus-number">0</div>
+                  <div class="lc-bottom-left__bonus-text">бонусов</div>
+                </div>
+              </div>
+              <div class="personal-bonus__middle personal-bonus-middle">
+                <p class="personal-bonus-middle__title">Как получить бонусы?</p>
+                <p class="personal-bonus-middle__sub-title">
+                  В частности, экономическая повестка сегодняшнего дня
+                  однозначно фиксирует необходимость позиций, занимаемых
+                  участниками в отношении поставленных задач.
+                </p>
+              </div>
+            </div>
+            <div class="personal-bonus-bottom">
+              <div class="personal-bonus-bottom__title">История операций</div>
+              <table cellspacing="0" cellpadding="0" class="bonus-list">
+                <tr class="bonus-list-top">
+                  <th class="bonus-list-top__title">Дата и время</th>
+                  <th class="bonus-list-top__title">Операция</th>
+                  <th class="bonus-list-top__title">Сумма</th>
+                </tr>
+                <tr class="bonus-list__body">
+                  <td class="bonus-list__item">22.06.2021 в 15:30</td>
+                  <td class="bonus-list__item">Шиномонтаж</td>
+                  <td class="bonus-list__item">-500 баллов</td>
+                </tr>
+                <tr class="bonus-list__body">
+                  <td class="bonus-list__item">22.06.2021 в 15:30</td>
+                  <td class="bonus-list__item">Шиномонтаж</td>
+                  <td class="bonus-list__item">-500 баллов</td>
+                </tr>
+                <tr class="bonus-list__body">
+                  <td class="bonus-list__item">22.06.2021 в 15:30</td>
+                  <td class="bonus-list__item">Шиномонтаж</td>
+                  <td class="bonus-list__item">-500 баллов</td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="lc-right__bottom lc-bottom"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="overlay_order_now">
+      <div class="order_now_form_wrap">
+        <form action="send_now.php" id="order_now_form">
+          <div class="form_header">
+            <h2>Записаться сейчас</h2>
+          </div>
+          <div class="form_row">
+            <label for="phone">Номер телефона</label>
+            <input
+              class="maskphone"
+              id="phone"
+              name="phone"
+              type="text"
+              required
+            />
+          </div>
+          <div class="form_row">
+            <label for="name">Ваше имя</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <input type="submit" value="Отправить" />
+        </form>
+        <span class="close_order_now"></span>
+      </div>
+    </div>
+    <footer id="footer">
+      <div class="footer_item logo_item_foot">
+        <a href="/">
+          <img src="./logo_foot.svg" alt="logo_foot" />
+        </a>
+      </div>
+      <div class="footer_item icons_item">
+        <div class="fi_ii wapp">
+          <a href="https://wa.me/79891232351">
+            <img src="wapp_foot.svg" alt="whatsapp" />
+          </a>
+        </div>
+        <div class="fi_ii insta">
+          <a href="https://www.instagram.com/trustcar_service/">
+            <img src="instagram_foot.svg" alt="instagram" />
+          </a>
+        </div>
+        <div class="fi_ii email">
+          <a href="mailto:mail@trustcar.ru">
+            <img src="mail_foot.svg" alt="email" />
+          </a>
+        </div>
+      </div>
+      <div class="footer_item footer_nav_item">
+        <nav class="footer_navigation" role="navigation">
+          <ul>
+            <a href="./index.html"><li>Главная</li></a>
+            <a href="./indexhtml#anchor_service"><li>Услуги</li></a>
+            <a href="./Promotions.html"><li>Акции</li></a>
+            <a href="./About-us.html"><li>О нас</li></a>
+            <a href="index.html#contacts"><li>Контакты</li></a>
+          </ul>
+        </nav>
+      </div>
+      <div class="address_foot">
+        <span></span>
+        <p>Краснодар, <br />ул. Коммунаров, 268 лит Г 39</p>
+      </div>
+      <div class="contacts_foot">
+        <span></span>
+        <a class="contacts-link" href="tel:+78612060723">+7 861 206 07 23</a>
+      </div>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-7DSGD8339T"
+      ></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-7DSGD8339T");
+      </script>
+    </footer>
+    <div id="my-popup-exit" class="popup-wrapper my-popup__wrapper popup">
+      <div class="my-popup popup-default">
+        <a href="#" class="my-popup__close close-popup"></a>
+        <div class="my-popup__top">
+          <div class="my-popup__top-title">
+            Выход из личного<br />
+            кабинета
+          </div>
+        </div>
+        <div class="my-popup__body">
+          <div class="my-popup__body-text">
+            Вы уверены, что хотите выйти<br />
+            из своей учетной записи?
+          </div>
+        </div>
+        <div class="my-popup__bottom">
+          <button class="my-popup__exit-btn">Выйти</button>
+          <button class="my-popup__cancel-btn close-popup">Отменить</button>
+        </div>
+      </div>
+    </div>
+    <div
+      id="my-popup-login"
+      class="popup-wrapper my-popup__login-wrapper popup"
+    >
+      <div class="my-popup popup-default">
+        <a href="#" class="my-popup__close close-popup"></a>
+        <div class="my-popup__top">
+          <div class="my-popup__top-title my-popup__login-top-title">
+            Вход в личный кабинет
+          </div>
+        </div>
+        <div class="my-popup__body my-popup__login-body">
+          <div class="my-popup__body-item">
+            <label for="phone" class="my-popup__body-item-text"
+              >Номер телефона</label
+            >
+            <input
+              id="phone"
+              class="maskphone my-popup__body-item-input"
+              placeholder="+7 (928) 11-22-333"
+              name="phone"
+              type="phone"
+            />
+          </div>
+          <div class="my-popup__body-item">
+            <label for="lc-car-gos" class="my-popup__body-item-text"
+              >Гос. номер авто</label
+            >
+            <input
+              class="my-popup__body-item-input"
+              id="lc-car-gos"
+              name="car-gos"
+              type="text"
+            />
+          </div>
+          <div class="my-popup__body-item">
+            <label for="lc-car-gos" class="my-popup__body-item-text"
+              >Пароль</label
+            >
+            <input
+              class="my-popup__body-item-input"
+              id="my-popup__password"
+              name="password"
+              type="password"
+            />
+          </div>
+          <a href="#" class="my-popup__drop-password">Забыли пароль?</a>
+        </div>
+        <div class="my-popup__bottom my-popup__login-bottom">
+          <button class="my-popup__login">Войти</button>
+          <div class="my-popup__registration-box">
+            <span class="my-popup__registration-text">Нет аккаунта?</span>
+            <a
+              href="#my-popup-register"
+              class="my-popup__registration-link popup-link"
+              >Зарегестрируйтесь</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      id="my-popup-register"
+      class="popup-wrapper my-popup__register-wrapper popup"
+    >
+      <div class="my-popup popup-default">
+        <a href="#" class="my-popup__close close-popup"></a>
+        <div class="my-popup__top">
+          <div
+            class="my-popup__top-title my-popup__login-top-title my-popup__register-top-title"
+          >
+            Регистрация
+          </div>
+        </div>
+        <div class="my-popup__body my-popup__login-body">
+          <div class="my-popup__body-item">
+            <label for="phone" class="my-popup__body-item-text"
+              >Номер телефона</label
+            >
+            <input
+              id="phone"
+              class="maskphone my-popup__body-item-input"
+              placeholder="+7 (928) 11-22-333"
+              name="phone"
+              type="phone"
+            />
+          </div>
+          <div class="my-popup__body-item">
+            <label for="lc-car-gos" class="my-popup__body-item-text"
+              >Гос. номер авто</label
+            >
+            <input
+              class="my-popup__body-item-input"
+              id="lc-car-gos"
+              name="car-gos"
+              type="text"
+            />
+          </div>
+        </div>
+        <div class="my-popup__bottom my-popup__login-bottom">
+          <button class="my-popup__login">Зарегестрироваться</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript">
+      (function (m, e, t, r, i, k, a) {
+        m[i] =
+          m[i] ||
+          function () {
+            (m[i].a = m[i].a || []).push(arguments);
+          };
+        m[i].l = 1 * new Date();
+        (k = e.createElement(t)),
+          (a = e.getElementsByTagName(t)[0]),
+          (k.async = 1),
+          (k.src = r),
+          a.parentNode.insertBefore(k, a);
+      })(
+        window,
+        document,
+        "script",
+        "https://mc.yandex.ru/metrika/tag.js",
+        "ym"
+      );
+
+      ym(82471825, "init", {
+        clickmap: true,
+        trackLinks: true,
+        accurateTrackBounce: true,
+        webvisor: true,
+      });
+    </script>
+    <noscript
+      ><div>
+        <img
+          src="https://mc.yandex.ru/watch/82471825"
+          style="position: absolute; left: -9999px"
+          alt=""
+        /></div
+    ></noscript>
+  </body>
+</html>
